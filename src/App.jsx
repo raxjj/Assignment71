@@ -7,7 +7,7 @@ import Login from "./Login";
 import ForgetPassword from "./ForgetPassword";
 import Signup from "./Signup";
 import NavBar from "./NavBar";
-import EmptyCart from "./EmptyCart";
+import EmptyCart from "./emptyCart";
 
 export default function App() {
   const savedDataString = localStorage.getItem("my-cart") || "{}";
