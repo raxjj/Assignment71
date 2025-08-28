@@ -4,7 +4,7 @@ import CartList from "./CartList";
 import { IoMdArrowBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { getProductData } from "./api";
-import EmptyCart from "./EmptyCart";
+import EmptyCart from "./emptyCart";
 
 export default function CartPage({ cart = {}, onRemove, onUpdate }) {
   const productIds = Object.keys(cart);
